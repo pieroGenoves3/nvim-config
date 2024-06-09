@@ -1,8 +1,9 @@
 vim.g.mapleader = " "
 vim.keymap.set("n", "<leader>pv", vim.cmd.Ex)
 vim.keymap.set("n", "<leader>ps", vim.cmd.PackerSync)
-
--- vim.vim.opt config
+vim.keymap.set("v", "<leader>cm", "<Esc>:'<, '>s!^!//!<CR>")
+vim.keymap.set("v", "<leader>ucm", "<Esc>:'<, '>s!//!<CR>")
+vim.keymap.set("v", "<leader>ml", "<Esc>:'<, '>s!^!")
 
 -- line numbers 
 vim.opt.rnu = true
