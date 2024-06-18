@@ -1,4 +1,5 @@
 vim.g.mapleader = " "
+vim.g.maplocalleader = " "
 vim.keymap.set("n", "<leader>pv", vim.cmd.Ex)
 vim.keymap.set("n", "<leader>ps", vim.cmd.PackerSync)
 vim.keymap.set("v", "<leader>cm", "<Esc>:'<, '>s!^!//!<CR>")
