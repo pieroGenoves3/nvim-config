@@ -105,6 +105,12 @@ _G.packer_plugins = {
     path = "/Users/pierogenovese/.local/share/nvim/site/pack/packer/start/mason.nvim",
     url = "https://github.com/williamboman/mason.nvim"
   },
+  ["mini.nvim"] = {
+    config = { "\27LJ\2\n\24\0\0\1\0\1\0\2'\0\0\0L\0\2\0\r%2l:%-2vè\1\1\0\5\0\r\0\0246\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\3\0B\0\2\0016\0\0\0'\2\4\0B\0\2\0029\0\2\0B\0\1\0016\0\0\0'\2\5\0B\0\2\0029\1\2\0005\3\t\0006\4\6\0009\4\a\0049\4\b\4=\4\n\3B\1\2\0013\1\f\0=\1\v\0K\0\1\0\0\21section_location\14use_icons\1\0\1\14use_icons\0\19have_nerd_font\6g\bvim\20mini.statusline\18mini.surround\1\0\1\fn_lines\3ô\3\nsetup\fmini.ai\frequire\0" },
+    loaded = true,
+    path = "/Users/pierogenovese/.local/share/nvim/site/pack/packer/start/mini.nvim",
+    url = "https://github.com/echasnovski/mini.nvim"
+  },
   ["null-ls.nvim"] = {
     loaded = true,
     path = "/Users/pierogenovese/.local/share/nvim/site/pack/packer/start/null-ls.nvim",
@@ -162,6 +168,10 @@ time([[Defining packer_plugins]], false)
 time([[Config for gruvbox-material]], true)
 try_loadstring("\27LJ\2\nu\0\0\3\0\6\0\n6\0\0\0009\0\1\0+\1\2\0=\1\2\0006\0\0\0009\0\3\0009\0\4\0'\2\5\0B\0\2\1K\0\1\0\21gruvbox-material\16colorscheme\bcmd#gruvbox_material_enable_italic\6g\bvim\0", "config", "gruvbox-material")
 time([[Config for gruvbox-material]], false)
+-- Config for: mini.nvim
+time([[Config for mini.nvim]], true)
+try_loadstring("\27LJ\2\n\24\0\0\1\0\1\0\2'\0\0\0L\0\2\0\r%2l:%-2vè\1\1\0\5\0\r\0\0246\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\3\0B\0\2\0016\0\0\0'\2\4\0B\0\2\0029\0\2\0B\0\1\0016\0\0\0'\2\5\0B\0\2\0029\1\2\0005\3\t\0006\4\6\0009\4\a\0049\4\b\4=\4\n\3B\1\2\0013\1\f\0=\1\v\0K\0\1\0\0\21section_location\14use_icons\1\0\1\14use_icons\0\19have_nerd_font\6g\bvim\20mini.statusline\18mini.surround\1\0\1\fn_lines\3ô\3\nsetup\fmini.ai\frequire\0", "config", "mini.nvim")
+time([[Config for mini.nvim]], false)
 
 _G._packer.inside_compile = false
 if _G._packer.needs_bufread == true then

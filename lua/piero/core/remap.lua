@@ -24,6 +24,8 @@ vim.opt.wrap = false
 vim.opt.ignorecase = true
 vim.opt.smartcase = true
 
+vim.opt.showmode = false
+
 -- sync os and nvim clipboard
 vim.opt.clipboard = 'unnamedplus'
 
